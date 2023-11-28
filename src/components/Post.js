@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
-const post = ({title, author}) => {
+const Post = ({title, author, body}) => {
   return (
     <div className='border border-gray-100 p-4 flex flex-col'>
         <h1 className='font-bold text-xl'>{title}</h1>
@@ -15,4 +15,4 @@ const post = ({title, author}) => {
   )
 }
 
-export default post
+export default Post
